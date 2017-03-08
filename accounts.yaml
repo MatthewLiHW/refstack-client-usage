@@ -1,0 +1,6 @@
+- username: 'swiftop'
+  tenant_name: 'tempest'
+  password: 'a_big_secret'
+  roles:
+    - 'Member'
+    - 'ResellerAdmin'
