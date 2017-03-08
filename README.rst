@@ -1,0 +1,8 @@
+1, git clone https://git.openstack.org/openstack/refstack-client
+2, ./setup_env -t 14.0.0
+3, source .venv/bin/activate
+4, configure tempest.conf
+   reference 
+   https://aptira.com/testing-openstack-tempest-part-1/
+   https://github.com/hogepodge/defcore-tools
+5, ./refstack-client test -c tempest.conf -v --test-list "https://refstack.openstack.org/api/v1/guidelines/2016.08/tests?target=compute&type=required&alias=true&flag=false" 
