@@ -12,7 +12,7 @@ steps
 
 ::
 
-  ./setup_env -t 14.0.0
+  ./setup_env -t 15.0.0
 
 3, source venv
  
